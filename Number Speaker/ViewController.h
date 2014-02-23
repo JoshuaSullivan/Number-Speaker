@@ -10,4 +10,9 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)numberTouched:(id)sender;
+- (IBAction)deleteTouched:(id)sender;
+- (IBAction)clearTouched:(id)sender;
+- (IBAction)screenTouched:(id)sender;
+
 @end

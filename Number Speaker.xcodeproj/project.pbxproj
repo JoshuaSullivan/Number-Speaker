@@ -19,6 +19,10 @@
 		BC552E9316504638006FDD81 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC552E9116504638006FDD81 /* MainStoryboard_iPhone.storyboard */; };
 		BC552E9616504638006FDD81 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC552E9416504638006FDD81 /* MainStoryboard_iPad.storyboard */; };
 		BC552E9916504638006FDD81 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC552E9816504638006FDD81 /* ViewController.m */; };
+		BC552EA9165050C2006FDD81 /* 25-circle-west.png in Resources */ = {isa = PBXBuildFile; fileRef = BC552EA7165050C2006FDD81 /* 25-circle-west.png */; };
+		BC552EAA165050C2006FDD81 /* 25-circle-west@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC552EA8165050C2006FDD81 /* 25-circle-west@2x.png */; };
+		BC982CF0166C06BA00DADA2F /* 31-circle-x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC982CEE166C06BA00DADA2F /* 31-circle-x.png */; };
+		BC982CF1166C06BA00DADA2F /* 31-circle-x@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC982CEF166C06BA00DADA2F /* 31-circle-x@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +43,10 @@
 		BC552E9516504638006FDD81 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		BC552E9716504638006FDD81 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		BC552E9816504638006FDD81 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BC552EA7165050C2006FDD81 /* 25-circle-west.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "25-circle-west.png"; sourceTree = "<group>"; };
+		BC552EA8165050C2006FDD81 /* 25-circle-west@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "25-circle-west@2x.png"; sourceTree = "<group>"; };
+		BC982CEE166C06BA00DADA2F /* 31-circle-x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "31-circle-x.png"; sourceTree = "<group>"; };
+		BC982CEF166C06BA00DADA2F /* 31-circle-x@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "31-circle-x@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +93,7 @@
 		BC552E7F16504638006FDD81 /* Number Speaker */ = {
 			isa = PBXGroup;
 			children = (
+				BC552EA4165050C2006FDD81 /* Resources */,
 				BC552E8816504638006FDD81 /* AppDelegate.h */,
 				BC552E8916504638006FDD81 /* AppDelegate.m */,
 				BC552E9116504638006FDD81 /* MainStoryboard_iPhone.storyboard */,
@@ -108,6 +117,33 @@
 				BC552E8F16504638006FDD81 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC552EA4165050C2006FDD81 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BC552EA5165050C2006FDD81 /* Audio */,
+				BC552EA6165050C2006FDD81 /* Image */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BC552EA5165050C2006FDD81 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		BC552EA6165050C2006FDD81 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				BC982CEE166C06BA00DADA2F /* 31-circle-x.png */,
+				BC982CEF166C06BA00DADA2F /* 31-circle-x@2x.png */,
+				BC552EA7165050C2006FDD81 /* 25-circle-west.png */,
+				BC552EA8165050C2006FDD81 /* 25-circle-west@2x.png */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +203,10 @@
 				BC552E9016504638006FDD81 /* Default-568h@2x.png in Resources */,
 				BC552E9316504638006FDD81 /* MainStoryboard_iPhone.storyboard in Resources */,
 				BC552E9616504638006FDD81 /* MainStoryboard_iPad.storyboard in Resources */,
+				BC552EA9165050C2006FDD81 /* 25-circle-west.png in Resources */,
+				BC552EAA165050C2006FDD81 /* 25-circle-west@2x.png in Resources */,
+				BC982CF0166C06BA00DADA2F /* 31-circle-x.png in Resources */,
+				BC982CF1166C06BA00DADA2F /* 31-circle-x@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,7 +275,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -257,7 +297,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -268,10 +308,13 @@
 		BC552E9D16504638006FDD81 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Number Speaker/Number Speaker-Prefix.pch";
 				INFOPLIST_FILE = "Number Speaker/Number Speaker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -279,10 +322,13 @@
 		BC552E9E16504638006FDD81 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Number Speaker/Number Speaker-Prefix.pch";
 				INFOPLIST_FILE = "Number Speaker/Number Speaker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -306,6 +352,7 @@
 				BC552E9E16504638006FDD81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
